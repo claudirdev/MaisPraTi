@@ -20,7 +20,7 @@
 - Pós-Graduação em Sistemas de Informação.
 - Pós-Graduação em Docência para Educação Profissional.
 
-> Certificado Project Management Professional (PMP) pelo PMI desde 2017.
+> Certificação Project Management Professional (PMP) pelo PMI.
 
 ## Minhas Skills
 
