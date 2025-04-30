@@ -38,4 +38,4 @@
 ## Onde me encontrar
 
 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/claudirkraulich/)]
-[![Gmail Badge](https://img.shields.io/badge/claudir.dev@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:claudir.dev@gmail.com)](mailto:claudir.dev@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/E-mail?style=flat-square&logo=Gmail&logoColor=white&link=mailto:claudir.dev@gmail.com)](mailto:claudir.dev@gmail.com)
