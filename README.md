@@ -7,6 +7,12 @@
 - 🌱 Aprendendo mais sobre JavaScript, Java e React.
 - 💼 Trabalhando como Gerente de Serviços de TI.
 
+## Minha Formação
+- Graduação em Ciências Contábeis.
+- Graduação em Gestão da Tecnologia da Informação.
+- Pós-Graduação em Sistemas de Informação.
+- Pós-Graduação em Docência para Educação Profissional.
+
 ## Minhas Skills
 
 **Aplicações e dados**
