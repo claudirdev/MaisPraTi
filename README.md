@@ -9,7 +9,7 @@
 
 **Minhas Experiências**
 
-- Atuação na área de TI a mais de 25 anos.
+- Atuando na área de TI a mais de 25 anos, nas áreas de infraestrutura, desenvolvimento, suporte e gestão.
 - Experiência em empresas nacionais e multinacionais em Gestão de Projetos de TI.
 - Experiência em Gestão e Coordenação de equipes multidisciplinares de TI.
 
