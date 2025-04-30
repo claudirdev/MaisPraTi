@@ -8,7 +8,9 @@
 - 💼 Trabalhando como Gerente de Serviços de TI.
 
 > Certificado Project Management Professional (PMP) pelo PMI desde 2017.
+
 > Experiência em Gestão de Projetos.
+
 > Experiência em Gestão e Coordenação de TI.
 
 ## Minha Formação 
