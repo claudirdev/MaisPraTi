@@ -1,0 +1,45 @@
+// +PRATI - CODIFICA 
+// FORMAÇÃO DESENVOLVEDOR FULL STACK JUNIOR
+// ATIVIDADE 1 - CLAUDIR R. KRAULICH - 29/04/25
+
+// -----------------------------------------------------------------------------------------------------
+// REQUISITOS DO SISTEMA: 
+// -----------------------------------------------------------------------------------------------------
+
+// Node.js instalado no computador
+// VS Code instalado no computador.
+// Biblioteca prompt-sync instalada para permitir a entrada de dados. 
+//
+// Para isso siga as instruções abaixo:
+//
+//  1 - Instalar o VS Code
+//      Acesse: https://code.visualstudio.com
+//      Baixe e instale a versão apropriada para seu Sistema Operacional.
+//      Após a instalação, abra o sistema e clique no ícone de Extensões (menu lateral esquerdo) para
+//      instalar as extensões abaixo:
+//          - JavaScript and TypeScript Nightly
+//          - Code Runner" (para executar código JS diretamente no editor)
+//          - Node.js Extension Pack" (opcional)
+//
+//  2 - Instalar o Node.js
+//      Acesse: https://nodejs.org
+//      Baixe e instale a versão LTS recomendada.
+//      Após a instalação, é possível validar a versão instalada digitando os comandos no Terminal do VS Code:
+//          node -v
+//          npm -v
+//
+//  3 - Instalar as dependências
+//      No terminal do VS Code digite o comando abaixo para criar a pasta node_modules com as dependências e o 
+//      pacote package.json:
+//          npm install prompt-sync
+//
+//  4 - Copiar o arquivo .js para uma pasta no computador.
+//
+//  5 - Abrir o VS Code e localizar a pasta onde foi copiado o arquivo .js (File - Open Folder)
+//
+//  6 - Acesse o arquivo .js desejado.
+// 
+//  Para rodar o sistema clique no ícone de 'Start' disponibilizado na barra superior do VS Code pelo Code Runner
+//  e siga as Instruções de Uso de cada sistema.
+
+// -----------------------------------------------------------------------------------------------------
