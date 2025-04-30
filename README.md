@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=iuricode&color=006bed)
+![](https://komarev.com/ghpvc/?username=claudirdev&color=006bed)
 
 ## Sobre mim
 
@@ -38,5 +38,4 @@
 ## Onde me encontrar
 
 [![Linkedin](https://img.shields.io/badge/-username-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/claudirkraulich/)]
-[![Gmail Badge](https://img.shields.io/badge/-seuemail@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:claudir.dev@gmail.com)](mailto:claudir.dev@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/claudirdev)
+[![Gmail Badge](https://img.shields.io/badge/claudir.dev@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:claudir.dev@gmail.com)](mailto:claudir.dev@gmail.com)
