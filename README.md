@@ -36,6 +36,5 @@
 </a>
 
 ## Onde me encontrar
-
-[![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/claudirkraulich/)]
-[![Gmail Badge](https://img.shields.io/badge/E-mail?style=flat-square&logo=Gmail&logoColor=white&link=mailto:claudir.dev@gmail.com)](mailto:claudir.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claudirkraulich/)
+[![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:claudir.dev@gmail.com)
