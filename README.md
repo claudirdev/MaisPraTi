@@ -32,8 +32,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=claudirdev&theme=dracula&show_icons=true" />
 </a>
 
-<a href="cdn.credly.com/assets/utilities/embed.js" title="PMP">
-  <img height="270" width="150" src="www.credly.com"/>
   
 ## Onde me encontrar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claudirkraulich/)
