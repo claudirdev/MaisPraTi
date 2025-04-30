@@ -7,13 +7,14 @@
 - 🌱 Aprendendo mais sobre JavaScript, Java e React.
 - 💼 Trabalhando como Gerente de Serviços de TI.
 
-**Minhas Experiências
+**Minhas Experiências**
 
 - Atuação na área de TI a mais de 25 anos.
 - Experiência em empresas nacionais e multinacionais em Gestão de Projetos de TI.
 - Experiência em Gestão e Coordenação de equipes multidisciplinares de TI.
 
-**Minha Formação
+**Minha Formação**
+
 - Graduação em Ciências Contábeis.
 - Graduação em Gestão da Tecnologia da Informação.
 - Pós-Graduação em Sistemas de Informação.
