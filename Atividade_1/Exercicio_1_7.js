@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------------------------------------
 // EXERCICIO 7 - CALCULAR VALOR TOTAL DE COMPRA
 // Instruções Uso:
-// Informe a quantidade de maçãs compradas e pressiona <ENTER> para que seja calculado o valor total da compra.
+// Informe a quantidade de maçãs compradas e pressione <ENTER> para que seja calculado o valor total da compra.
 // -----------------------------------------------------------------------------------------------------
 
 console.clear();
