@@ -1,6 +1,6 @@
 // +PRATI - CODIFICA 
 // FORMAÇÃO DESENVOLVEDOR FULL STACK JUNIOR
-// ATIVIDADE 2 - CLAUDIR R. KRAULICH - 29/04/25
+// ATIVIDADE OPCIONAL - CLAUDIR R. KRAULICH - 29/04/25
 
 // -----------------------------------------------------------------------------------------------------
 // EXERCICIO 3 - CALCULAR PREÇO DA PASSAGEM DE ACORDO COM DISTANCIA
