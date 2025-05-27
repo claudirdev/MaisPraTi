@@ -26,7 +26,7 @@ while (!ehCorreto) {
     }    
     if(n > numeroAleatorio) {     
         console.log("\nNão foi desta vez! Tente um número mais baixo!\n");
-    }else if(n< numeroAleatorio){
+    }else if(n < numeroAleatorio){
         console.log("\nNão foi desta vez! Tente um número mais alto!\n");
     } else {
         console.log(`\nParabéns, você acertou! O número ${numeroAleatorio} está correto!\n`);
