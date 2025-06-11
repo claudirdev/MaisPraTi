@@ -4,7 +4,7 @@
 
 // -----------------------------------------------------------------------------------------------------
 // EXERCICIO 5 - JOGO PEDRA-PAPEL-TESOURA
-// // Instruções Uso:
+// Instruções Uso:
 // Jogue o jogo Pedra-Papel-Tesoura
 // -----------------------------------------------------------------------------------------------------
 console.clear();
@@ -23,3 +23,4 @@ if(jogador1 === jogador2){
 } else {
     console.log('Jogador 2 é o ganhador!');        
 }
+
