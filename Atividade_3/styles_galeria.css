@@ -1,0 +1,86 @@
+/* 
+------------------------------------------------------------------ 
+File: styles_galeria.css
+Subject: Exercícios 3 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 30/06/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------ 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.cabecalho {
+  padding: 2rem 2rem;
+  border-bottom: 1px solid #484848;
+
+  background-color: #5a9442;
+  color: #fff;
+
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px #313131;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+  gap: 10px;
+}
+
+.item {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+  background-color: #f4f4f4;
+
+  font-size: 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+.rodape {
+  padding: 10px 0;
+  border-top: 4px solid #fff;
+
+  background-color: #484848;
+  color: #fff;
+
+  text-align: center;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);  /* 2 colunas */
+  } 
+}
+
+@media (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr;  /* 1 coluna */
+  }
+}

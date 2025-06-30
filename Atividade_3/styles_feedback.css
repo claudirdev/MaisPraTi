@@ -1,0 +1,175 @@
+/* 
+------------------------------------------------------------------ 
+File: styles_feedback.css
+Subject: Exercícios 3 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 30/06/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------ 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#fff;
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;   
+}
+
+.cabecalho {   
+    padding: 2rem 2rem;
+    border-bottom: 1px solid #484848;
+
+    background-color: #5a9442;
+    color: #fff;
+
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px #313131;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    background-color: snow;
+    color: #363636;
+
+    font-size: 1em;
+}
+
+.entrada {
+    margin-bottom: 15px;
+}
+
+.entrada > label {
+    display: block;
+
+    font-weight: bold;
+}
+
+.entrada input {
+    margin-right: 8px;       
+}
+
+.linha {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.linha .entrada {
+  flex: 1; 
+  min-width: 200px;
+}
+
+.campo {
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: #fff;
+
+    font-size: 1rem;
+}
+
+textarea.campo {
+    height: auto;
+    min-height: calc(1.4em + 10px);
+    resize: vertical;
+    overflow-y: auto;
+}
+.grupo-localizacao {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.grupo-localizacao legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+     
+.grupo-area {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.grupo-area legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.grupo-radio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 0;    
+}
+
+.grupo-radio label {
+    display: flex;
+    align-items: center;
+    gap: 5px;   
+
+    font-weight: bold;
+}
+
+.aceite {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0.8em 1.2em;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #127d00;
+    color: #fff;
+
+    line-height: normal;
+    font-size: 1em;
+
+    text-align: center;    
+}
+
+.botao:hover {
+    background-color: #0e6400;
+}
+
+.rodape {
+    padding: 10px 0;
+    border-top: 4px solid #fff;
+
+    background-color: #484848;
+    color: #fff;
+
+    text-align: center;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+  .linha {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,112 @@
+<!------------------------------------------------------------------ 
+File: feedback.html
+Subject: Exercicios 3 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 30/06/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="styles_feedback.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h3>Sugestões e Comentários</h3>
+  </header>
+
+  <main>
+    <div class="conteudo">
+      <form action="#" method="post">
+
+        <div class="entrada">
+          <label for="nome-cliente">Nome</label>
+          <input id="nome-cliente" name="nomeCliente" type="text" class="campo" required>
+        </div>
+        <div class="entrada">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" class="campo" required>
+        </div>
+
+        <fieldset class="grupo-localizacao">
+          <legend>Localização</legend>
+
+          <div class="entrada">
+            <label for="endereco">Endereço</label>
+            <input id="endereco" name="endereco" type="text" class="campo">
+          </div>
+
+          <div class="linha">
+            <div class="entrada">
+              <label for="estado">Estado</label>
+              <select id="estado" name="estado" class="campo">
+                <option>Selecione</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SP">São Paulo</option>
+                <option value="SC">Santa Catarina</option>
+              </select>
+            </div>
+
+            <div class="entrada">
+              <label for="cidade">Cidade</label>
+              <select id="cidade" name="cidade" class="campo">
+                <option>Selecione</option>
+                <option value="1">Porto Alegre</option>
+                <option value="2">São Paulo</option>
+                <option value="3">Florianópolis</option>
+              </select>
+            </div>
+          </div>
+
+        </fieldset>
+        <fieldset class="grupo-area">
+          <legend>Área</legend>
+          <div class="grupo-radio">
+            <label>
+              <input type="radio" name="area" value="atendimento" required>Atendimento
+            </label>
+            <label>
+              <input type="radio" name="area" value="comercial" required>Comercial
+            </label>
+            <label>
+              <input type="radio" name="area" value="financeiro" required>Financeiro
+            </label>
+            <label>
+              <input type="radio" name="area" value="suporte" required>Projetos
+            </label>
+            <label>
+              <input type="radio" name="area" value="suporte" required>Suporte
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="entrada">
+          <label for="comentario">Comentário:</label>
+          <textarea id="comentario" name="comentario" rows="4" class="campo" required
+            placeholder="Deixe seu comentário"></textarea>
+        </div>
+
+        <div class="aceite">
+          <label>
+            <input type="checkbox" name="aceite">&nbsp;Concordo com a publicação do meu comentário
+          </label>
+        </div>
+
+        <div style="text-align: center">
+          <input type="submit" value="Enviar" class="botao">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; Nomos Sistemas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

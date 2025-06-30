@@ -1,0 +1,102 @@
+/* 
+------------------------------------------------------------------ 
+File: style.css
+Subject: Exercícios 3 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 29/06/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------ 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.cabecalho {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #484848;
+
+    background-color: #5a9442;
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    margin: 20px;
+
+    color: #fff;
+
+    font-size: 3.375em;
+    /* 54px com fonte padrao*/
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+
+.cabecalho__subtitulo {
+    margin: 2rem 0;
+
+    color: #fff;
+
+    font-size: 1em;
+}
+
+.conteudo {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    background-color: snow;
+    color: #363636;
+
+    font-size: 1rem;
+}
+
+.conteudo>h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+}
+
+.conteudo>p {
+    margin: 20px;
+}
+
+.destaque {
+    border-radius: 8px;
+
+    background-color: rgba(85, 107, 47, 0.2);
+
+    font-style: italic;
+}
+
+#importante {
+    border-top: 4px solid #5a9442;
+    padding: 10px 10px;
+
+    background-color: rgba(85, 107, 47, 0.3);
+
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    margin: 5px 20px;
+}
+
+.rodape {
+    padding: 10px 0;
+    border-top: 4px solid #fff;
+
+    background-color: #484848;
+    color: #fff;
+
+    text-align: center;
+}
