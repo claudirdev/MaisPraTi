@@ -1,0 +1,183 @@
+/* 
+------------------------------------------------------------------ 
+File: styles_galeria.css
+Subject: Exercícios 3 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 30/06/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------ 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.cabecalho {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+
+  border-bottom: 1px solid #484848;
+
+  background-color: #5a9442;
+  color: #fff;
+
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px #313131;
+}
+
+.cabecalho__menu {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.cabecalho__menu ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: right;
+  list-style: none;
+
+  gap: 20px;
+}
+
+.cabecalho__menu a {
+  padding: 5px 5px;
+  border-radius: 5px;
+
+  color: #fff;
+
+  font-size: 1rem;
+
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.cabecalho__menu a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.botao-chaveador {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background: transparent url('../img/bars.png') no-repeat center;
+  background-size: 80%;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 colunas */
+
+  gap: 10px;
+}
+
+.item {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  background-color: #f4f4f4;
+
+  font-size: 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.rodape {
+  padding: 10px 0;
+  border-top: 4px solid #fff;
+
+  background-color: #484848;
+  color: #fff;
+
+  text-align: center;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 colunas */
+  }
+
+  .cabecalho__menu ul {
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .galeria {
+    grid-template-columns: 1fr;
+    /* 1 coluna */
+  }
+
+  .botao-chaveador {
+    display: block;
+    top: 1rem;
+    z-index: 1001;
+  }
+
+  .cabecalho__menu {
+    position: relative;
+  }
+
+  .cabecalho__menu ul {
+    display: none;
+    justify-content:start;
+    flex-direction:column;
+    text-align: left;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    width: 100px;      
+    
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    background-color: #fbfbfb;
+    
+    z-index: 1000;
+  }
+
+  .cabecalho__menu a {    
+    color: gray;
+       
+  }
+
+  .cabecalho__menu.ativo ul {
+    display: flex;
+  }
+}

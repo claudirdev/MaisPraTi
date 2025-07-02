@@ -7,20 +7,29 @@ Developer: Claudir Kraulich
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Listas e Navegação</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
   <header class="cabecalho">
-    <h3 class="cabecalho__subtitulo">Listas e Navegação</h3>    
+    <h3 class="cabecalho__subtitulo">Listas e Navegação</h3>
+    <nav class="cabecalho__menu">
+    <ul>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#receita">Receita</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul>
+  </nav>
   </header>
 
   <main>
-    <section class="conteudo">      
+    <section class="conteudo" id="hobbies">
       <h3>Hobbies</h3>
       <ul>
         <li>Séries e Filmes</li>
@@ -31,7 +40,7 @@ Developer: Claudir Kraulich
       </ul>
     </section>
 
-    <section class="conteudo">
+    <section class="conteudo" id="receita">
       <h3>Receita de Brigadeiro</h3>
       <ol>
         <li>Despeje 1 lata de leite condensado em uma panela média.</li>
@@ -41,19 +50,20 @@ Developer: Claudir Kraulich
         <li>Leve ao fogo baixo e mexa sem parar com uma colher de silicone.</li>
         <li>Cozinhe até a mistura desgrudar do fundo da panela (ponto de brigadeiro).</li>
         <li>Desligue o fogo e deixe esfriar por alguns minutos.</li>
-        <li>Enrole com a mãos pequenas porções da massa em forma de bolinhas.</li>
+        <li>Enrole com as mãos pequenas porções da massa em forma de bolinhas.</li>
         <li>Passe as bolinhas no granulado de chocolate.</li>
         <li>Coloque os brigadeiros em forminhas de papel e sirva.</li>
       </ol>
     </section>
 
-    <section class="conteudo">
-        <h3>Referências</h3>
-        <nav>
-            <p><a href="https://www.primevideo.com/" target="_blank" rel="noopener noreferrer">Prime Video</a></p>
-            <p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3 Schools</a></p>
-            <p><a href="https://panelinha.com.br/receita/brigadeiro" target="_blank" rel="noopener noreferrer">Receita de Brigadeiro</a></p>
-        </nav>
+    <section class="conteudo" id="referencias">
+      <h3>Referências</h3>
+      <nav>
+        <p><a href="https://www.primevideo.com/" target="_blank" rel="noopener noreferrer">Prime Video</a></p>
+        <p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3 Schools</a></p>
+        <p><a href="https://panelinha.com.br/receita/brigadeiro" target="_blank" rel="noopener noreferrer">Receita de
+            Brigadeiro</a></p>
+      </nav>
     </section>
   </main>
 
@@ -61,5 +71,6 @@ Developer: Claudir Kraulich
     <p>&copy; 2025 Claudir Kraulich. Todos os direitos reservados.</p>
   </footer>
 
-  </body>
-  </html>
+</body>
+
+</html>

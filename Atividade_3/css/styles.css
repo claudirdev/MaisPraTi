@@ -33,7 +33,7 @@ body {
 
     color: #fff;
 
-    font-size: 3.375em;
+    font-size: 2.5em;
     /* 54px com fonte padrao*/
     line-height: 0.9;
     text-shadow: 1px 1px #313131;
@@ -45,6 +45,28 @@ body {
     color: #fff;
 
     font-size: 1em;
+}
+
+.cabecalho__menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    justify-content: right;
+    gap: 10px;
+}
+
+.cabecalho__menu a {
+    color: #fff;
+    font-size: 0.5em;
+   
+    text-decoration: none;
+}
+
+.cabecalho__menu a:hover {
+    font-weight: bold;
+    
+    text-decoration: underline;
 }
 
 .conteudo {
