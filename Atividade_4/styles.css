@@ -1,0 +1,344 @@
+/*------------------------------------------------------------------ 
+File: style.css
+Subject: Exercicio 4 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 08/07/25                                                   
+Developer: Claudir Kraulich
+-------------------------------------------------------------------*/
+
+:root {
+    --fonteGoogle: "Roboto Condensed", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.conteudo {
+    display: flex;
+    background: #fafafa;
+    flex-direction: column;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Bloco do perfil*/
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil__foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.perfil__foto:hover {
+    transform: scale(1.05);   
+}
+
+.perfil__titulo {
+    margin-top: 20px;
+    padding: 20px;
+    color: #333;
+    font-size: 1.5em;
+    line-height: 1;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Bloco do Menu */
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+}
+
+.nav__lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-left: 1rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav__toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    transition: right 0.3s ease;
+    z-index: 1001;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+
+/* Bloco Central */
+
+.hero__titulo {
+    font-size: 2rem;
+}
+
+.blocos {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colunas */
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.card__lista {
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.card__texto {
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.card__item {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.card__titulo::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+    background: #333;
+    margin-right: 8px;
+}
+
+#contato a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Bloco Aside */
+
+.barra-lateral {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    font-family: var(--fonteGoogle);
+    font-size: 0.95rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.barra-lateral h4 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.barra-lateral__lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.barra-lateral__item {
+    margin-bottom: 0.5rem;
+}
+
+.barra-lateral__lista i {
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.barra-lateral__link {
+    color: #333;
+    text-decoration: none;
+}
+
+.barra-lateral__link:hover {
+    text-decoration: underline;
+}
+
+/* Bloco Rodapé */
+
+.footer {
+    font-family: var(--fonteGoogle);
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer__texto {
+  font-size: 1rem;
+}
+
+
+/* Bloco Responsividade - 2 colunas - Telas 768px */
+
+@media (max-width: 768px) {
+    
+    .layout {
+        flex-direction: column-reverse;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .barra-lateral {
+        width: 100%;
+        border-right: none;        
+        background-color: #f4f4f4;
+        margin-top: 2rem; 
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);    
+    }
+
+    .footer__texto {
+        font-size: 0.8rem;
+    }
+}
+
+/* Bloco Responsividade - 1 coluna */
+
+@media (max-width: 600px) {
+
+    .perfil {
+        margin-bottom: 10px;
+    }
+    
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero__titulo {
+        font-size: 1.5rem;
+    }
+
+    .hero__subtitulo {
+        font-size: 1rem;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+        /* 1 coluna */
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: flex-start;
+        top: 0;
+        right: -250px;
+        /* escondido inicialmente */
+        width: 150px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+        transition: right 0.3s ease-in-out;
+        padding: 4rem;
+        z-index: 999;
+    }
+
+    .nav.open {
+        right: 0px;
+    }
+
+    .nav__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .nav__item {
+        margin-left: 0px;
+        width: 100%;
+        white-space: nowrap
+    }
+
+    .nav__link {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .nav__toggle {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        left: auto;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 1001
+    }
+}

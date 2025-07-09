@@ -1,0 +1,124 @@
+<!------------------------------------------------------------------ 
+File: perfil.html
+Subject: Exercicio 4 - Desenvolvimento Web Básico - Formação +PraTI                      
+Create: 08/07/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Claudir Kraulich, Gerente de Projetos, Desenvolvedor Full Stack." />
+    <meta name="author" content="Claudir Kraulich">
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="faviconClaudir.png" type="image/png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Claudir Kraulich - Desenvolvedor Full Stack</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="perfil">
+                <img src="fotoClaudir.png" alt="Foto Claudir Kraulich, desenvolvedor Full Stack" class="perfil__foto">
+                <h3 class="perfil__titulo">Claudir Kraulich : Desenvolvedor Full Stack</h3>
+            </div>
+            <button id="navToggle" class="nav__toggle" aria-expanded="false" aria-label="Abrir Menu">☰</button>
+            <nav id="navMenu" class="nav">
+                <ul class="nav__lista">
+                    <li class="nav__item"><a class="nav__link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#projetos">Projetos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="layout">
+        <aside class="barra-lateral">
+            <h4>Links</h4>
+            <ul class="barra-lateral__lista">
+                <li class="barra-lateral__item"><i class="fab fa-github"></i><a class="barra-lateral__link"
+                        href="https://github.com/claudirdev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li class="barra-lateral__item"><i class="fab fa-linkedin"></i> <a class="barra-lateral__link"
+                        href="https://www.linkedin.com/in/claudirkraulich/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </aside>
+        <main class="conteudo">
+            <section id="hero" class="hero">
+                <div class="container">
+                    <h1 class="hero__titulo"> Soluções na área de tecnologia</h1>
+                    <h3 class="hero__subtitulo">Gestão de Projetos | Consultoria | Desenvolvimento Full Stack</h3>
+                </div>
+            </section>
+
+            <section class="blocos container">
+                <div class="card-grid">
+                    <div id="sobre" class="card">
+                        <h3 class="card__titulo">Sobre Mim</h3>
+                        <article>
+                            <ul class="card__lista">
+                                <li class="card__item">Profissional com mais de 25 anos de atuação em TI.</li>
+                                <li class="card__item">Certificado PMP - Project Management Professional.</li>
+                                <li class="card__item">Pós-Graduado em Sistemas de Informação.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div id="habilidades" class="card">
+                        <h3 class="card__titulo">Habilidades</h3>
+                        <article>
+                            <ul class="card__lista">
+                                <li class="card__item">Gestão e Coordenação de equipes multidisciplinares de TI.</li>
+                                <li class="card__item">Experiência em Gestão de Projetos de TI.</li>
+                                <li class="card__item">Desenvolvimento de soluções de TI.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div id="projetos" class="card">
+                        <h3 class="card__titulo">Projetos</h3>
+                        <article>
+                            <ul class="card__lista">
+                                <li class="card__item">Formação Dev Full Stack - +PraTI e Codifica.</li>
+                                <li class="card__item">Desenvolvendo conhecimentos em HTML, CSS, JavaScript e Java.</li>
+                                <li class="card__item">Explorando novas tecnologias e desenvolvendo soluções de
+                                    software.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div id="contato" class="card">
+                        <h3 class="card__titulo">Contato</h3>
+                        <article>
+                            <p class="card__texto">Entre em contato pelos canais abaixo:</p>
+                            <ul class="card__lista">
+                                <li class="card__item"><i class="fas fa-envelope"></i> <a
+                                        href="mailto:claudir.dev@gmail.com">E-mail</a></li>
+                                <li class="card__item"><i class="fab fa-linkedin"></i> <a
+                                        href="https://www.linkedin.com/in/claudirkraulich/" target="_blank"
+                                        rel="noopener noreferrer">LinkedIn</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__texto">&copy;2025 Claudir Kraulich - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
