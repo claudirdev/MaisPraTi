@@ -193,11 +193,10 @@ body {
     border-right: 1px solid #ddd;
     padding: 1rem;
     font-family: var(--fonteGoogle);
-    font-size: 0.95rem;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.95rem;   
 }
 
-.barra-lateral h4 {
+.barra-lateral__titulo {
     margin-bottom: 1rem;
     color: #333;
 }
@@ -231,7 +230,8 @@ body {
     font-family: var(--fonteGoogle);
     background-color: #f4f4f4;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0;   
+    box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .footer__texto {
