@@ -1,0 +1,47 @@
+<!------------------------------------------------------------------ 
+File: calculadora.html
+Subject: Desafio Aula 38 - Formação +PraTI                      
+Create: 22/07/25                                                   
+Developer: Claudir Kraulich
+------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Matemática</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <div class="calculator">
+      <input type="text" class="calculator__display" id="resultado" disabled />
+      <div class="calculator__buttons">
+        <button class="calculator__button calculator__button--clear" onclick="limpar()">C</button>
+        <button class="calculator__button" onclick="voltar()">←</button>
+        <button class="calculator__button" onclick="adicionar('/')">÷</button>
+        <button class="calculator__button" onclick="adicionar('*')">×</button>
+
+        <button class="calculator__button" onclick="adicionar('7')">7</button>
+        <button class="calculator__button" onclick="adicionar('8')">8</button>
+        <button class="calculator__button" onclick="adicionar('9')">9</button>
+        <button class="calculator__button" onclick="adicionar('-')">−</button>
+
+        <button class="calculator__button" onclick="adicionar('4')">4</button>
+        <button class="calculator__button" onclick="adicionar('5')">5</button>
+        <button class="calculator__button" onclick="adicionar('6')">6</button>
+        <button class="calculator__button" onclick="adicionar('+')">+</button>
+
+        <button class="calculator__button" onclick="adicionar('1')">1</button>
+        <button class="calculator__button" onclick="adicionar('2')">2</button>
+        <button class="calculator__button" onclick="adicionar('3')">3</button>
+        <button class="calculator__button calculator__button--equal" onclick="calcular()">=</button>
+
+        <button class="calculator__button calculator__button--zero" onclick="adicionar('0')">0</button>
+        <button class="calculator__button" onclick="adicionar('.')">.</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
