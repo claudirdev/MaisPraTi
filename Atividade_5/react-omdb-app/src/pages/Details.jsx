@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------ 
 File: src/pages/Details.jsx
 Subject: Exercicio 5 - Consumo API com ReactJS - Formação +PraTI                      
-Create: 21/08/07/25                                                   
+Create: 21/08/25                                                   
 Developer: Claudir Kraulich
 -------------------------------------------------------------------*/
 import { useParams } from "react-router-dom";
